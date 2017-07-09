@@ -1,0 +1,66 @@
+#map{
+  width:400px;
+  height:400px;
+  border-style: solid;
+  border-color: black;
+  border-width:3px;
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+
+#buttons{
+  height:60px;
+  margin:15px;
+  padding:20px;
+}
+#watch{
+	margin:10px;
+}
+#text{
+  margin:10px;
+  background-color:#FDE8D7;
+}
+body{
+  text-align:center;
+}
+@media screen and (max-width: 480px) {
+   #map{
+   	width:300px; 
+   	height:350px;
+   }
+}
+@media screen and (max-width: 300px) {
+   #map{
+   	width:250px; 
+   	height:300px;
+
+   }
+}
+footer{
+	color:#F1505A;
+	font-family:Comic Sans, Comic Sans MS, cursive;
+	font-size:20px;
+	padding:20px;
+	height:60px;	
+}
+#location {
+	font-family:Comic Sans, Comic Sans MS, cursive;
+	font-size:20px;
+
+}
+
+
+	   
+
+	   
+
+
+
+	   
+	   
+	   
+	  
+	  
+	  

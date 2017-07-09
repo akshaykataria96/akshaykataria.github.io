@@ -1,0 +1,341 @@
+<!DOCKTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Akshay kataria Personal Home Page</title>
+	<meta name="viewport" content="width=device-width", initial-scale="1">
+	<meta name="description" content="Akshay kataria personal home page">
+	<meta name="keywords" content="akshay kataria,akshay,web developer,software developer,akshay nsit,nsit akshay">
+	<link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="main.css" rel="stylesheet"/>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <script src="scroll.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+
+        $("#typed").typed({
+            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+	    });
+       
+        function newTyped(){ /* A new typed object */ }
+
+	    function foo(){ console.log("Callback"); }
+       
+    </script>
+    <script type="text/javascript"> <!-- animate -->
+
+      $(document).ready(function() {
+    
+			    /* Every time the window is scrolled ... */
+			    $(window).scroll( function(){
+			    
+			        /* Check the location of each desired element */
+			        $('.hideme').each( function(i){
+			            
+			            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+			            var bottom_of_window = $(window).scrollTop() + $(window).height();
+			            
+			            /* If the object is completely visible in the window, fade it it */
+			            if( bottom_of_window > bottom_of_object ){
+			                
+			               $(this).animate({'opacity':'1'},4000);
+			                    
+			            }
+			            
+			        }); 
+			    
+			    });
+			    
+			});
+    </script>
+    <style>
+        /* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+    </style>
+    <style>
+	  .twitter-handle
+	  {
+	  	    position: absolute;
+	  	    top:460px;
+	  	    right:20px;
+	  	    opacity:0.7;  
+	   }
+	   .twitter-handle:hover
+	   {
+	   	  opacity:1.0;
+	   }
+	   .hideme {opacity:0;}
+  </style> 
+</head>
+<body>
+
+	<!--- ================ fb java sdk =========== -->
+
+	<div id="headwraper">
+		<header class="clearfix">
+		  <div class="container">
+			<img src="images/pic3.png" class="img-circle text-center" style="height:120px;width:120px;margin-left:30px;border-radius:100%;margin-top:-40px;border:3px solid #fff;" alt="akshay kataria">
+			<h1> Akshay </h1>
+			   <h2>Some people dream of success.. while others wake up and work hard at it</h2>
+		 </div>
+
+		 <div class="container">
+		 	 <div class="row">
+			     <ul class="icon">
+				    <li><a href="https://www.facebook.com/akshay.kataria.794" target="_blank"><img src="images/facebook.png" alt="Facebook Link"/></a></li>
+					<li><a href="https://twitter.com/akshay_kataria1" target="_blank"><img src="images/twitter.png" alt="Twitter Link"/></a></li>
+					<li><a href="" target="_blank"><img src="images/gplus2.png" alt="Google+ Link"></a></li>
+					<li><a href="https://www.instagram.com/animalbarbell/" target="_blank"><img src="images/instagram.png" alt="instagram link"></a></li>
+					<li><a href="https://github.com/akshaykataria96" target="_blank"><img src="images/github.png" alt="Github Link"/></a></li>
+					<li><a href="https://in.linkedin.com/in/akshay-kataria-5ba394111" target="_blank"><img src="images/linkedin.png" alt="LinkedIn Link"/></a></li>
+					<li><a href="" target="_blank"><img src="images/mail.png" alt="Email ID"/></a></li>	
+		         </ul>
+		     </div>
+	      </div>
+	 
+	      <div class="twitter-handle">
+		      <a href="https://twitter.com/akshaykataria" class="twitter-follow-button" data-show-count="default" data-size="default">Follow @akshaykataria</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
+         </div>
+		</header>
+	</div>
+
+
+	<!-- ==============about me================ -->
+
+	<div id="insp">
+		<div class="container">
+			<div class="hideme">
+				<div class="row">
+					<div class="col-sm-6">
+						<h2>About me</h2>
+						  <div class="row" style="height:200px;">
+						  </div>
+						  <div class="row ">
+						  	 <div class="wrap">
+							       <div class="type-wrap">
+							            <div id="typed-strings">
+							                <p>Hi, I'm Akshay kataria.</p>
+							                <p>Student of NSIT (Delhi University)</p>
+							                <p>Open Source Enthusiast.</p>
+							                <p>Some of my self projects<i class="em em-point_down"></i></p>
+							            </div>
+							            <span id="typed" style="white-space:pre;"></span>
+							        </div>
+							    </div>
+						  </div>
+					</div>
+
+					<div class="col-sm-6" >
+						<h2>Twitter</h2>
+						<a class="twitter-timeline" href="https://twitter.com/akshay_kataria1" data-widget-id="739046734370738176">Tweets by @akshay_kataria1</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+				<!--<div class="col-sm-4" >
+					<h2>Instagiri</h2>
+				</div>-->
+
+
+
+			    <!--<div id="myCarousel" class="carousel slide">
+				   <ol class="carousel-indicators">
+					   <li data-target="#myCarousel" data-slide-to="1"></li>
+				    </ol>
+
+				    <div class="carousel-inner">
+					    <div class="item active">
+						     <img src="images/social2.jpg" alt="social network" class="img-responsive">
+					    </div>
+					    <div class="item">
+						     <img src="images/manraj.jpg" alt="manraj singh" class="img-responsive" >
+					     </div>
+				    </div>		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li> -->
+			
+
+				    <!--<a href="#myCarousel" class="carousel-control left" data-slide="prev">
+					    <span class="icon-prev"></span>
+				    </a>
+
+				    <a href="#myCarousel" class="carousel-control right" data-slide="next">
+					    <span class="icon-next"></span>
+				    </a>-->
+				
+
+			    </div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- ================devlopment============== -->
+	<div id="dev">
+		<div class="container">
+			<div class="top">
+			     <img src="images/desktop.png">
+			     <p>My projects...</p>
+		    </div>
+		</div>
+		<div class="container">
+			<div class="hideme">
+			    <div class="row">
+
+			    	<div class="col-sm-4">
+			    		<section>
+			    			<a href="htmlLink/multiTab/info.html" target="_blank"><img src="images/chrome.png"></a>
+			    			<h3>multiTab</h3>
+			    			<p><strong>Chrome extension</strong> for opening multiple windows.You can save the url of the website's that you want to open when browser start's.</p>
+			    		</section>
+			    	</div>
+			    	<div class="col-sm-4">
+			    		<section>
+			    			<img src="images/battleship.png">
+			    			<h3>Battleship game</h3>
+			    			<p>It's a web-application created using <strong>javascript</strong>.</p>
+			    			<a href="htmlLink/battleship/battleship.html" target="_blank"><button type="button" class="btn btn-success">Play</button></a>
+			    		</section>
+			    	</div>
+			    	<div class="col-sm-4">
+			    		<section>
+			    			<img src="images/android.png">
+			    			<h3>Android app</h3>
+			    			<p>Developing an app for my own website.</p>
+			    			<div class="progress">
+			    				<div class="progress-bar progress-bar-success progress-bar-striped active" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+			    					20%
+			    				</div>
+			    			</div>
+			    		</section>
+			    	</div>
+
+			    </div>
+		    <!-- =============== Second row ======= -->
+			    <div class="row">
+			    	<div class="col-sm-4">
+			    		<section>
+			    			<a href="tracing/myLoc.html" target="_blank"><img src="images/location.png"></a>
+			    			<h3>geoTrack <button class="btn btn-danger btn-xs">new</button></h3>
+			    			<p>A <strong>Location traker</strong> that track's your location wherever you go.
+			    				Built using <b>geolocation-api</b> and <b>google-maps api</b>.</p>
+			    		</section>
+			    	</div>
+			    	<div class="col-sm-4">
+			    		<section>
+			    			<a href="htmlLink/instaTweet/info.html" target="_blank"><img src="images/tweet.png"></a>
+			    			<h3>instaTweet <button class="btn btn-danger btn-xs">new</button></h3>
+			    			<p>It's a chrome extension built using <strong>twitter api</strong>. You can tweet <b>(quotes,images,urls)</b> instantly from anywhere
+			    			   just by a click ! .</p>
+			    		</section>
+			    	</div>
+			    	<div class="col-sm-4">
+			    		<section>
+			    			<a href="htmlLink/twitter-notifier/info.html" target="_blank"><img src="images/twitternotification.png"></a>
+			    			<h3>Twitter Notifier <button class="btn btn-danger btn-xs">new</button></h3>
+			    			<p>A chrome plugin for twitter built using <strong>rich notifications</strong> alerts you for all the notifications on your twitter account .</p>
+			    		</section>
+			    	</div> 
+
+
+			    </div>
+
+		    <!-- ================ Third row ==========  -->
+			    <div class="row">
+			    	<div class="col-sm-4">
+			    		<section>
+			    			<a href="" target="_blank"><img src="images/recording.png"></a>
+			    			<h3>screenRecorder <button class="btn btn-info btn-xs">beta 1.0</button></h3>
+			    			<p>A <strong>Screen recorder gooogle app</strong> that records your screen.
+			    			   You can record your online video lecture's etc. Specially designed for <b> chromebook users</b>.</p>
+			    		</section>
+			    	</div>
+			    	<div class="col-sm-4">
+			    		<section>
+			    			<a href="htmlLink/quoraAlerts/info.html" target="_blank"><img src="images/quora.png"></a>
+			    			<h3>quoraAlerts <button class="btn btn-danger btn-xs">new</button></h3>
+			    			<p>It's a chrome extension built using <strong>notification api</strong>. It shows you a notification corresponding to each new post
+			    			     on <b>Quora</b>.</p>
+			    		</section>
+			    	</div>
+			    	<!--<div class="col-sm-4">
+			    		<section>
+			    			<img src="images/twitternotification.png">
+			    			<h3>Twitter Notifier <button class="btn btn-danger btn-xs">new</button></h3>
+			    			<p>A chrome plugin for twitter built using <strong>rich notifications</strong> alerts you for all the notifications on your twitter account .</p>
+			    		</section>
+			    	</div>  -->
+
+
+			    </div>  <!-- ==== row ended ==== -->
+	      </div>
+	  </div>
+	</div>
+
+    <a id="#headwrapper" href="#" class="back-to-top">back to top </a>
+	<!-- =========== resume ============ -->
+	<!--<div id="cover">
+		<div class="container">
+			<img src="images/download.png">
+		</div>
+	</div>  -->
+
+    <!-- ================== footer ============== -->
+    <footer class="footer">
+    	<div class="container">
+    		<p>Copyrights &copy; Akshay Kataria 2015 &hearts;</p>
+    	</div>
+
+    </footer>
+
+</body>
+</html>

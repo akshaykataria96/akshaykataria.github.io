@@ -1,0 +1,57 @@
+<!DOCKTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <style type="text/css">
+	    
+		.hideme
+		{
+		    opacity:0;
+		    text-align:center;
+		    background-color: yellow;
+		    border: black;
+		}
+		.content {
+			height:650px;
+		}
+    </style>
+</head>
+<body>
+	<div class="content"></div>
+	<div class="hideme">
+		<h2>This is heading </h2>
+		<p>Creating movement is great way to provide an interesting and interactive experience for your viewers. With modern sites providing a greater deal of interactivity, it’s becoming increasingly expected that even simple websites will offer some level of animation / movement to engage their visitors.</p>	
+	</div>
+	<div class="content"></div>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},4000);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+
+	</script>
+</body>
+</html>
