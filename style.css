@@ -213,6 +213,9 @@ footer{
  #headwraper h2{
  	font-size:25px;
  }
+ .twitter-handle{
+ 	display:none;
+ }
 
 }
 
@@ -223,6 +226,9 @@ footer{
  }
  #headwraper h2{
  	font-size:22px;
+ }
+ .twitter-handle{
+ 	display:none;
  }
 
 
@@ -249,6 +255,9 @@ footer{
      display: block;
      text-align:center;
  }
+ .twitter-handle{
+ 	display:none;
+ }
 
 }
 
@@ -262,6 +271,9 @@ footer{
  }
  #insp h2{
  	font-size:40px;
+ }
+ .twitter-handle{
+ 	display:none;
  }
 
 }
