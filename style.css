@@ -200,6 +200,9 @@ footer{
  #headwraper h2{
  	font-size: 30px;
  }
+ .twitter-handle{
+ 	display:none;
+ }
 
 }
 /* ipads and tabs  */
